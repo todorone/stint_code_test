@@ -10,3 +10,9 @@ Your task is to -- given a set of responses -- calculate:
 2. A subscore for each of the 6 categories, which is an average of the responses for that category. This is also a percentage.
 
 Some of the questions, denoted with a 'R', must be reverse-coded. For example if the response is 5, the reverse-coded answer would be 0.
+
+# Solution
+
+Start solution: `yarn && yarn start`
+
+Run tests: `yarn test`

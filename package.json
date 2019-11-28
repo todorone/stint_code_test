@@ -2,17 +2,23 @@
   "name": "coding-exercise-stint-index",
   "version": "1.0.0",
   "description": "Coding Exercise: stint Index Score Calculation",
-  "main": "stint-index.js",
+  "main": "stint.ts",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "inquirer": "^7.0.0"
   },
   "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
     "chance": "^1.0.13",
-    "mocha": "^4.0.1"
+    "lodash": "^4.17.10",
+    "mocha": "^4.0.1",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
   },
   "scripts": {
-    "start": "node stint-index.js",
-    "test": "./node_modules/mocha/bin/mocha"
+    "start": "ts-node index",
+    "test": "./node_modules/mocha/bin/mocha -r ts-node/register *.spec.ts"
   },
   "author": "",
   "license": "ISC"
